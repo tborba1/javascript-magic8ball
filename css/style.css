@@ -5,13 +5,9 @@ body {
 }
   
 .container {
-    /* border-style:solid;
-    border-radius: 10px; */
     height: 50%;
     width: 50%;
     text-align: center;
-    /* background-image: linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet); */
-    /* background-image: conic-gradient(red, orange,yellow, green, blue, indigo, violet, red); */
 }
 
 input {
@@ -35,9 +31,6 @@ img {
 footer {
     border-style:solid;
     border-radius: 10px;
-    /* height: 50%;
-    width: 50%; */
-    /* text-align: center; */
 }
 
 footer a {
@@ -49,5 +42,4 @@ footer a {
 
 footer a:hover {
     color: white;
-    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
