@@ -1,15 +1,17 @@
 body {
-    font-family: 'Jolly Lodger', cursive;
+    font-family: 'Combo', cursive;
+    background-image: conic-gradient(red, orange,yellow, green, blue, indigo, violet, red);
+    background-repeat: no-repeat;
 }
   
 .container {
-    border-style:solid;
-    border-radius: 10px;
+    /* border-style:solid;
+    border-radius: 10px; */
     height: 50%;
     width: 50%;
     text-align: center;
     /* background-image: linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet); */
-    background-image: conic-gradient(red, yellow, green, blue, violet);
+    /* background-image: conic-gradient(red, orange,yellow, green, blue, indigo, violet, red); */
 }
 
 input {
@@ -21,22 +23,31 @@ button {
 }
 
 img {
-    height: 90%;
-    width: 90%;
+    height: 95%;
+    width: 95%;
 }
 
 .answer {
-    margin-top: -47%;
-    margin-bottom: 47%;
+    margin-top: -50%;
+    margin-bottom: 50%;
+}
+
+footer {
+    border-style:solid;
+    border-radius: 10px;
+    /* height: 50%;
+    width: 50%; */
+    /* text-align: center; */
 }
 
 footer a {
     color: black;
     text-decoration: none;
     font-size: x-large;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
 
 footer a:hover {
-    color: black;
+    color: white;
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }

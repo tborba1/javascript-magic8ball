@@ -26,7 +26,8 @@ const answers = [
     "Ask again later",
     "Better not tell you now",
     "Cannot predict now",
-    "Concentrate and ask again"
+    "Seems silly"
+    // "Concentrate and ask again"
     // '<img class="8ballRandom" src="img/magic8ball_1.png" />',
     // '<img class="8ballRandom" src="img/magic8ball_2.png" />',
     // '<img class="8ballRandom" src="img/magic8ball_3.png" />',
